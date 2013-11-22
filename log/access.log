@@ -1,0 +1,6 @@
+127.0.0.1 - - [22/Nov/2013:12:15:41 -0800] "GET / HTTP/1.1" 200 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
+127.0.0.1 - - [22/Nov/2013:12:15:42 -0800] "GET /favicon.ico HTTP/1.1" 404 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
+127.0.0.1 - - [22/Nov/2013:12:15:42 -0800] "GET /scanner/calibration/ HTTP/1.1" 404 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
+127.0.0.1 - - [22/Nov/2013:14:37:03 -0800] "GET / HTTP/1.1" 200 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
+127.0.0.1 - - [22/Nov/2013:14:37:05 -0800] "GET / HTTP/1.1" 200 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
+127.0.0.1 - - [22/Nov/2013:14:37:05 -0800] "GET /scanner/calibration/ HTTP/1.1" 404 - - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.19 Safari/537.36"
