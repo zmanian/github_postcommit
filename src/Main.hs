@@ -26,6 +26,7 @@ site =
 runGitPull :: Snap()
 runGitPull = do
     (inn, out, err, idd) <- liftIO $ runInteractiveCommand $ "git pull"
+    (_, _, _, _) <- liftIO $ runInteractiveCommand $ "find ./ -type f  -exec sed -i~ 's;http://;https://;g' {} \; " --Fix for the static HTML export hardcoding everything as http
     err_str <- liftIO $ hGetContents err
     out_str <- liftIO $ hGetContents out
     writeBS $ C.pack $ err_str ++ out_str
